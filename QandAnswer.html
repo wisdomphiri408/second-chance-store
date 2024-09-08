@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>try-again</title>
+</head>
+<body>
+    <h1>
+        Why is it important to set  realistic daily schedule for the entire term?
+    </h1>
+    <button id="button">
+        Show Answer
+    </button>
+    
+    <p id="answer" style="display: none;">
+        Setting realistic schedule ensures you don't overwhelm yourself, allowing you to balance schoolwork, relaxation, and personal activities without burning out.
+    </p>
+
+    <script>
+         //we have to obtain the button and answer
+    const button=document.getElementById('button');
+    const answer=document.getElementById('answer');
+
+    button.addEventListener('click', function(){
+        if(answer.style.display=='none'){
+            answer.style.display='block';
+            button.textContent='Hide Answer';
+        }
+        else{
+            answer.style.display='none';
+            button.textContent='Show Answer';
+        }
+    }
+    );
+    </script>
+</body>
+</html>
