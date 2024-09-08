@@ -1,0 +1,16 @@
+button[id='button']{
+    padding: 10px;
+    background-color: rgb(144, 245, 144);
+    border: none;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.015s;
+}
+button[id='button']:hover{
+    background-color: rgb(98, 231, 98);
+}
+button[id='button']:active{
+    opacity: 0.8;
+}
